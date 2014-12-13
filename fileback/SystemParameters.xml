@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<parameters>
+	<!--备份服务器信息-->
+	<parameter name="BACKUP_SERVER" value="ftp://Administrator:tellhow@10.36.12.196:21/access"/>-->
+	<parameter name="BACKUP_SERVER" value="ssh://root:rocky@10.36.12.187:21/root/ciwi"/>
+	
+	<!--备份时间间隔,单位:秒-->
+	<parameter name="BACKUP_THREAD_REPEAT" value="10000"/>
+	
+	<!--上传时设置的文件名编码-->
+	<parameter name="BACKUP_FILENAME_CHARSET" value="ISO8859-1"/>
+	
+	<!--本地需要备份至远程服务的目录,多个用逗号隔开-->
+	<parameter name="BACKUP_LOCATION_PATH" value="d:/ant-test"/>
+	
+	<!--上次备份时间记录-->
+	<parameter name="BACKUP_LASTTIME_RECORD" value="E:/eOMP/workspace_d5000/tbp-web-app/fileback/lastBackUpTime"/>
+	
+</parameters>
